@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* Tanner did CSS */
+img {
+    width: 20%;
+    text-align: left;
+    margin-left: 50px;
+}
+
+article {
+    text-align: left;
+    display: block;
+    margin-left: 100px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    display: inline;
+    background-color: #d0d0b3;
+}
+
+header nav ul#mainway {
+    font-size: xx-large;
+    background-color: #ff9375;
+}

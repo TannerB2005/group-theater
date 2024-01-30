@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mainway Theater!</title>
+    <link href="../css/form.css" rel="stylesheet" />
+    <script src="../js/script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul><h1>Mainway Theater & Show</h1></ul>
+            <ul>Calendar</ul>
+            <ul>Tickets</ul>
+            <ul>About Us</ul>
+        </nav>
+    </header>
+
+    <form>
+        <label for="events">Events</label>
+        <select name="events" id="events">
+        <option value="hologram">Holographic Pop-Idol</option>
+        <option value="tigers">Tiger Show</option>
+    </select>
+    <label>Tickets</label>
+    <div class="select">
+        0<input type="range" min="0" max="6" step="1" value="0" />6
+    </div>
+<div class="credit-card">
+<h4 class="title">Credit Card Info</h4>
+<input type="text" class="credit-card" placeholder="Card number">
+<select name="month">
+    <option value="january">Jan</option>
+    <option value="february">Feb</option>
+    <option value="march">Mar</option>
+    <option value="april">Apr</option>
+    <option value="may">May</option>
+    <option value="june">Jun</option>
+    <option value="july">Jul</option>
+    <option value="august">Aug</option>
+    <option value="september">Sep</option>
+    <option value="october">Oct</option>
+    <option value="november">Nov</option>
+    <option value="december">Dec</option>
+</select>
+    </div>
+    <div class="year">
+        <select name="Year">
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select>
+        <div>
+        
+        <div class="card-verification">
+            <div class="cvv-input">
+                <input type="text" placeholder="CVV">
+            </div>
+        </div>
+
+        <button type="submit" class="comfirm">Confirm Purchase</button>
+    </form>
+
+    <footer>
+        <h1>Contact Us</h1>
+        <section>
+            <li>Address:</li>
+            <li>Mainway Theater</li>
+            <li>123 Mainway, Town, USA</li>
+            <li>Zipcode: 12345</li>
+        </section>
+        <section>
+            <li>Phone Number:</li>
+            <li>(555)-555-5555</li>
+        </section> 
+        <section>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+        </section>
+    </footer>
+</body>
