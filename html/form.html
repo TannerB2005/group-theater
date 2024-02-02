@@ -18,19 +18,34 @@
         </nav>
     </header>
 
-    <form>
-        <label for="events">Events</label>
+    <form class="f-form">
+        <h4 class="f-header">Welcome to Mainway Theater</h4> 
+
+        <label for="events">Events</label><br>
         <select name="events" id="events">
-        <option value="hologram">Holographic Pop-Idol</option>
-        <option value="tigers">Tiger Show</option>
-    </select>
-    <label>Tickets</label>
-    <div class="select">
+            <option value="hologram">Holographic Pop-Idol</option>
+            <option value="tigers">Tiger Show</option>
+            <option value="extra pizza">Extra Pizza</option>
+            <option value="apollo 14">Apollo 14</option>
+            <option value="b-day">Tanner's Birthday<option>
+            <option value="another-b-day">Nate's Birthday<option>
+        </select>
+
+    <label>Tickets</label><br>
+    <div class="select"><br>
         0<input type="range" min="0" max="6" step="1" value="0" />6
     </div>
-<div class="credit-card">
+</form>
+<form class="credit-cards">
+<div class="form-header">
 <h4 class="title">Credit Card Info</h4>
+</div>
+
+<div class="form-body">
 <input type="text" class="credit-card" placeholder="Card number">
+
+<div class="date-field">
+    <div class="month">
 <select name="month">
     <option value="january">Jan</option>
     <option value="february">Feb</option>
@@ -58,15 +73,19 @@
             <option value="2023">2023</option>
             <option value="2024">2024</option>
         </select>
-        <div>
+    </div>
+</div>
         
         <div class="card-verification">
             <div class="cvv-input">
                 <input type="text" placeholder="CVV">
             </div>
+            <div class="cvv-details"></div>
+            <p>CVV Code</p>
         </div>
-
+    </div>
         <button type="submit" class="comfirm"><a href="#">Confirm Purchase</a></button>
+    </div>
     </form>
 
     <footer>

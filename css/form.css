@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+/* Body and HTML */
 
 body, html {
     height: 100%;
@@ -13,9 +18,158 @@ body {
     background-color: #E4EBEC;
 }
 
-.credit-card {
-height: 
+
+/*First Form Styles*/
+
+.f-form {
+ width: 360px;
+height: 350px;
+margin: 20px;
+border: 1px solid black;
+border-radius: 6px;
+background-color: #D0D0B3;
+box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+margin-left: 100px;
 }
+
+.f-header{
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid;
+    font-size: 18px;
+}
+
+label {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+    padding: 20px 30px 0;
+    text-decoration: underline;
+    float: left;
+}
+
+select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    
+}
+
+
+
+
+/* Contact Form Styles*/
+
+.credit-cards {
+width: 360px;
+height: 350px;
+margin: -370px auto 0;
+border: 1px solid black;
+border-radius: 6px;
+background-color: #D0D0B3;
+box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+float: right;
+margin-right: 100px;
+
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid;
+}
+
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px
+}
+
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: black;
+}
+
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid black;
+    border-radius: 6px;
+}
+
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.month select {
+    float: left;
+}
+
+.year select {
+    float: right;
+}
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background: #E4EBEC;
+}
+
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.cvv-details p {
+    margin-top: 6px;
+}
+
+
+
+/*Nav Styles*/
 
 li {
     display: inline;
@@ -26,3 +180,19 @@ ul {
     
     display: inline;
 }
+
+/*Footer Styles*/
+
+
+footer {
+border: 2px solid white;
+background: rgb(193,6,53);
+background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+address
