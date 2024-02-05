@@ -20,7 +20,7 @@ function createCalendar(calDate) {
 }
 
 /*Function to write a calendar caption*/
-function calCaptoin(calDate) {
+function calCaption(calDate) {
     //array contains the list of the months
     const monthName = ["January", "Feburary", "March", "April",
      "May", "June", "July", "August", "September",
