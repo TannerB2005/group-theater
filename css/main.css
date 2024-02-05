@@ -3,30 +3,54 @@
 
 /* Tanner did CSS */
 
+/* Body, Full Content */
 .container {
     display: grid;
     align-items: center;
 }
 
+container#full {
+    border: #000000;
+    border-radius: 30px;
+    background-color: #D0D0B3;
+}
+
+li#mainway {
+    color: #e4ebec;
+    inset-inline-start: calc(dashed);
+}
+
+/* Images */
+
 img#build {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    width: 20%;
-    margin-left: 50px;
+    display: block;
+    width: 10%;
+    margin-left: 2%;
 }
 
 img#holo {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    width: 20%;
-    margin-left: 50px;
+    display: block;
+    width: 10%;
+    margin-right:2%;
+    margin-bottom: 2%;
 }
 
+/* Text */
 
+div#body {
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 7%;
+    margin-top: 2%;
+}
+
+div#body-2 {
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 3%;
+}
 
 article {
     text-align: left;
@@ -43,7 +67,7 @@ li {
 
 li a:first-child {
     text-decoration: dashed;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     border-right: white;
     border-radius: 2%;
     text-decoration: wavy;
@@ -79,3 +103,30 @@ header nav ul#mainway {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
 }   
+
+hr {
+    color: #000000;
+    background-color: #000000;
+    height: 1px;
+    width: 100%;
+}
+
+/*Footer Styles*/
+
+
+footer {
+    border: 2px solid white;
+    background: rgb(193,6,53);
+    background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
+    text-anchor: middle;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    }
+    
+    h1 {
+        color: white;
+        text-decoration: underline;
+    }
