@@ -188,6 +188,7 @@ footer {
 border: 2px solid white;
 background: rgb(193,6,53);
 background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
+    padding: 2px;
 }
 
 h1 {
@@ -195,4 +196,10 @@ h1 {
     text-decoration: underline;
 }
 
-address
+section, ul {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
