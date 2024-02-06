@@ -1,23 +1,29 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-img {
-    width: 20%;
-    text-align: left;
-    margin-left: 50px;
+* {
+    box-sizing: border-box;
+}
+/*Body Styles*/
+body, html {
+    height: 100%;
+    width: 100%;
 }
 
-article {
-    text-align: left;
-    display: block;
-    margin-left: 100px;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #E4EBEC;
 }
 
-li {
-    display: inline;
+/*Footer Styles*/
+footer {
+    border: 2px solid white;
+    background: rgb(193,6,53);
+    background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
+    }
     
-}
-
-ul {
-    
-    display: inline;
-}
+    h1 {
+        color: white;
+        text-decoration: underline;
+    }
