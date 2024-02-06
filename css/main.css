@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
 
 /* Tanner did CSS */
 
@@ -15,22 +16,18 @@ container#full {
     background-color: #D0D0B3;
 }
 
-li#mainway {
-    color: #e4ebec;
-    inset-inline-start: calc(dashed);
-}
 
 /* Images */
 
 img#build {
     display: block;
-    width: 10%;
+    width: 12.5%;
     margin-left: 2%;
 }
 
 img#holo {
     display: block;
-    width: 10%;
+    width: 12.5%;
     margin-right:2%;
     margin-bottom: 2%;
 }
@@ -41,7 +38,7 @@ div#body {
     display: flex;
     text-align: center;
     font-size: x-large;
-    margin-bottom: 7%;
+    margin-bottom: 1%;
     margin-top: 2%;
 }
 
@@ -49,7 +46,7 @@ div#body-2 {
     display: flex;
     text-align: center;
     font-size: x-large;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
 
 article {
@@ -65,12 +62,11 @@ li {
     float: left;
 }
 
-li a:first-child {
-    text-decoration: dashed;
-    color: rgb(0, 0, 0);
-    border-right: white;
-    border-radius: 2%;
-    text-decoration: wavy;
+li#mainway a {
+    color: #ffffff;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    border-right: solid white;
 }
 
 li a {
@@ -79,6 +75,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-right: .8px solid white;
 }
 
 li a:hover {
@@ -96,9 +93,9 @@ ul {
     'Helvetica Neue', sans-serif;
 }
 
-header nav ul#mainway {
-    font-size: xx-large;
-    background-color: #ff9375;
+header nav ul {
+    font-size: x-large;
+    background-color: #992f2f;
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
