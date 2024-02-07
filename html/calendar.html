@@ -6,17 +6,29 @@
     <title>Document</title>
     <link href="../css/calendar.css" rel="stylesheet"/>
     <script src="../js/calendar.js" defer></script>
+    <script src="../js/script.js" defer></script>
 </head>
 <body>
-    <header>
+    <div class="container">
+        <header>
         <nav>
-            <ul><h1>Mainway Theater & Show</h1></ul>
-            <ul>Calendar</ul>
-            <ul>Tickets</ul>
-            <ul>About Us</ul>
+            <ul>
+                <li><a href="#">Mainway Theater</a></li>
+                <li><a href="./html/calendar.html">Events</a></li>
+                <li><a href="./html/form.html">Tickets</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
         </nav>
-    </header>
-
+        </header>
+    </div>
+    <div id="dateNow"><br/></div>
+    <div id="countdown">
+        <div><span id="days"><br />Days</span></div>
+        <div><span id="hrs"></span><br />Hours</div>
+        <div><span id="mins"></span><br /> Minutes</div>
+        <div><span id="secs"></span><br /> Seconds</div>
+    </div>
+    <div id="calendar"></div>
     <footer>
         <h1>Contact Us</h1>
         <section>
@@ -34,6 +46,6 @@
             <li><a href="#">Instagram</a></li>
             <li><a href="#">TikTok</a></li>
         </section>
-    </footer>
+        </footer>
 </body>
 </html>
