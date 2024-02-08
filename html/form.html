@@ -4,23 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Mainway Theater!</title>
-    <link href="../css/form.css" rel="stylesheet" />
-    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="./css/form.css" rel="stylesheet" />
+    
     
 </head>
 <body>
     <header>
-        <nav>
-            <ul><h1>Mainway Theater & Show</h1></ul>
-            <ul>Calendar</ul>
-            <ul>Tickets</ul>
-            <ul>About Us</ul>
-        </nav>
-    </header>
+        <div class="container">
+            <img src="./img/building.png" alt="building">
+            <div class="text-block">
+            <ul><h1>Tickets</h1></ul>
+        </div>
+</div>
 
+        <div class="topnav">
+
+            <div class="home">
+            <a class="active" href="#"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <style>
+                .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 0,
+                  'wght' 400,
+                  'GRAD' 0,
+                  'opsz' 24
+                }
+                </style>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                <span class="material-symbols-outlined">
+                    home
+                    </span>Home</a>
+            
+            </div>
+
+        <div class="calendar">
+            <a href="#"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <style>
+                .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 0,
+                  'wght' 400,
+                  'GRAD' 0,
+                  'opsz' 24
+                }
+                </style>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                <span class="material-symbols-outlined">
+                    calendar_month
+                    </span>Calendar</a>
+            
+        </div>
+
+            <div class="tickets">
+            <a href="#"><i class="tickets">    <style>
+                .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 0,
+                  'wght' 400,
+                  'GRAD' 0,
+                  'opsz' 24
+                }
+                </style>
+                    <span class="material-symbols-outlined">
+                    local_activity
+            </span>Tickets</i></a>
+        
+</div>
+        <div class="about_us">
+            <a href="#">About Us
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                <style>
+                    .material-symbols-outlined {
+                      font-variation-settings:
+                      'FILL' 0,
+                      'wght' 400,
+                      'GRAD' 0,
+                      'opsz' 24
+                    }
+                    </style>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                    <span class="material-symbols-outlined">
+                        group
+                        </span>
+            </a>
+        
+        </div>
+        </div>
+    </header>
+<p><b> *Please Fill out Form*</b></p>
     <form class="f-form">
         <h4 class="f-header">Welcome to Mainway Theater</h4> 
 
+
+        <div class="events">
         <label for="events">Events</label><br>
         <select name="events" id="events">
             <option value="hologram">Holographic Pop-Idol</option>
@@ -30,11 +108,30 @@
             <option value="b-day">Tanner's Birthday<option>
             <option value="another-b-day">Nate's Birthday<option>
         </select>
+</div>
 
+
+<div class="tickets">
     <label>Tickets</label><br>
+        <select name="Tickets">
+        <option value="1 ticket">1 Ticket</option>
+        <option value="2 ticket">2 Tickets</option>
+        <option value="3 ticket">3 Tickets</option>
+        <option value="4 ticket">4 Tickets</option>
+        <option value="5 ticket">5 Tickets</option>
+        <option value="6 ticket">6 Tickets</option>
+    </select>
     <div class="select"><br>
-        0<input type="range" min="0" max="6" step="1" value="0" />6
+       <b>$1000</b> <input role="text" aria-label="Minimum price $1000" aria-describedby="label-description-min" 
+       type="range" min="1000" max="6000" type="text" class="slider-label" size="3" 
+       value="20" /> <b>$6000</b>
+        <div role="slider" tabindex="0" aria-valuemin="1000" aria-valuemax="6000" aria-valuenow="1000" aria-label="Minimum ticket price" class="slider">
+            
+        </div>
     </div>
+</div>
+
+
 </form>
 <form class="credit-cards">
 <div class="form-header">
@@ -89,25 +186,24 @@
     </form>
 
     <footer>
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
         <section>
             <h3>Address</h3>
-            <ul>Mainway Theater</ul>
-            <ul>123 Mainway, Town, USA</ul>
-            <ul>Zipcode: 12345</ul>
+            <ul>Mainway Theater</ul><br>
+            <ul>123 Mainway, Town, USA</ul><br>
+            <ul>Zipcode: 12345</ul><br>
         </section>
         <section>
             <h3>Contact</h3>
-            <ul>Phone Number:</ul>
-            <ul>(555)-555-5555</ul>
+            <ul>Phone Number:   (555)-555-5555</ul>
         </section> 
         <section>
             <h3>Lorem</h3>
-            <ul><a href="#">Minima</a></ul>
-            <ul><a href="#">Eum</a></ul>
-            <ul><a href="#">Eppk</a></ul>
-            <ul><a href="#">Aum</a></ul>
-            <ul><a href="#">OLum</a></ul>
+            <ul><a href="#">Minima</a></ul><br>
+            <ul><a href="#">Eum</a></ul><br>
+            <ul><a href="#">Eppk</a></ul><br>
+            <ul><a href="#">Aum</a></ul><br>
+            <ul><a href="#">OLum</a></ul><br>
         <section>
             <ul><a href="#">Facebook</a></ul>
             <ul><a href="#">Instagram</a></ul>
