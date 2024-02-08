@@ -6,18 +6,129 @@
 }
 
 /* Body and HTML */
-
-body, html {
+html {
     height: 100%;
     width: 100%;
+   
+    background-color: rgb(36, 32, 32);
+    
 }
 
 body {
     font-family: sans-serif;
     margin: 0;
-    background-color: #E4EBEC;
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
+
+/* Image style*/
+
+img {
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #C10635;
+}
+
+/* Header Styles*/
+
+.topnav {
+    background-color: #C10635;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 14px;
+    
+}
+
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #C10635;
+}
+
+.topnav {
+   height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 16px;
+    text-align: center;
+    display: block;
+   
+}
+
+@media screen and (max-height: 450px) {
+    .topnav {padding-top: 15px;}
+    .topnav a {font-size: 18px;}
+}
+
+
+
+/* Header text */
+
+.text-block {
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0, 0.4);
+   color: white;
+   font-weight: bold;
+   font-size: 14px;
+   border: 8px solid #C10635;
+   position: fixed;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  
+   width: 300px;
+   padding: 20px;
+   text-align: center;
+
+    text-anchor: middle;
+}
+
+
+/*Paragraph styles */
+
+p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Event Styles */
+
+.events {
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+}
+
+/* Tickets Styles */
+
+b {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.select {
+    padding: 10px;
+}
 
 /*First Form Styles*/
 
@@ -25,7 +136,7 @@ body {
  width: 360px;
 height: 350px;
 margin: 20px;
-border: 1px solid black;
+border: 1px solid #C10635;
 border-radius: 6px;
 background-color: #D0D0B3;
 box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
@@ -55,7 +166,7 @@ select {
     width: 145px;
     margin-bottom: 20px;
     padding-left: 20px;
-    border: 2px solid black;
+    border: 2px solid #C10635;
     border-radius: 6px;
     
 }
@@ -69,13 +180,12 @@ select {
 width: 360px;
 height: 350px;
 margin: -370px auto 0;
-border: 1px solid black;
+border: 1px solid #C10635;
 border-radius: 6px;
 background-color: #D0D0B3;
 box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
 float: right;
 margin-right: 100px;
-
 }
 
 .form-header {
@@ -127,6 +237,7 @@ margin-right: 100px;
     padding-left: 20px;
     border-bottom: 2px solid black;
     border-radius: 6px;
+    
 }
 
 .month select,
@@ -185,21 +296,20 @@ ul {
 
 
 footer {
-border: 2px solid white;
+border: 2px solid #C10635;
 background: rgb(193,6,53);
-background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
-    padding: 2px;
+background: linear-gradient(90deg, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
+bottom: 0;
+left: 0;
+padding: 14px 16px;
+
 }
 
-h1 {
+h2, h3 {
     color: white;
     text-decoration: underline;
 }
 
-section, ul {
-    text-decoration: underline;
-    color: white;
+section ul {
+
 }
-
-
-
