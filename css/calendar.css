@@ -4,6 +4,57 @@
 * {
     box-sizing: border-box;
 }
+
+/*Header Styles*/
+
+.container {
+    display: grid;
+    align-items: center;
+}
+
+li {
+    float: left;
+}
+
+li a:first-child {
+    text-decoration: dashed;
+    color: antiquewhite;
+    border-right: white;
+    border-radius: 2%;
+    text-decoration: wavy;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ff9375;
+}
+
+ul {   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #992f2f;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+header nav ul#mainway {
+    font-size: xx-large;
+    background-color: #ff9375;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
 /*Body Styles*/
 body, html {
     height: 100%;
@@ -16,14 +67,63 @@ body {
     background-color: #E4EBEC;
 }
 
+/*Calendar Styles*/
+
+#calendar_table {
+    background-color: rgb(231, 231, 231);
+    font-size: 0.9em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "DejaVu", Verdana, sans-serif;
+    width: 100%;
+
+    box-shadow: rgb(51, 51, 51) 0px 0px 1px,
+                rgb(51, 51, 51) 0px 0px 5px,
+                rgb(51, 51, 51) 0px 0px 10px,
+                rgb(51, 51, 51) 0px 0px 20px0;
+}
+
+#calendar_table caption {
+    caption-side: top;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.6em;
+    letter-spacing: 0.3em;
+}
+
+.calendar_weekdays {
+    background-color: ivory;
+    width: 14.28%;
+    font-size: 1em;
+    border-bottom: 3px solid gray;
+}
+
+.calendar_dates {
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: white;
+    height: 60px;
+}
+
+#calendar_today {
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    background-color: rgb(251, 203, 176);
+    border: 1px solid black;
+}
+
+
 /*Footer Styles*/
 footer {
     border: 2px solid white;
     background: rgb(193,6,53);
     background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
-    }
+    bottom: 0;
+    left: 0;
+    padding: 14px 16px;
+}
     
-    h1 {
-        color: white;
-        text-decoration: underline;
-    }
+h2, h3 {
+    color: white;
+    text-decoration: underline;
+}
