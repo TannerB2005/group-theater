@@ -84,7 +84,7 @@ function calDays(calDate) {
 }
 
 //Write cells for each day of the month
-const totalDays = daysInMoonth(calDate);
+const totalDays = daysInMonth(calDate);
 
 const highlight = calDate.getDate();
 for (let i = 1; i <= totalDays; i++) {
@@ -92,7 +92,7 @@ for (let i = 1; i <= totalDays; i++) {
     weekDay = day.getDay();
 
     if (weekDay === 0) htmlCode += "<tr>";
-    if (i === highlightDay) {
+    if (i === highlight) {
         htmlCode += "<td class='calendar_dates' id=calendar_today>" + i + dayEvent[i] + "</td>";
     } else {
         htmlCode += "<td class='calendar_dates' id=calendar_today>" + i + "</td>";

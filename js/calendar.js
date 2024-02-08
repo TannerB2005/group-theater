@@ -21,7 +21,7 @@ function runClock() {
 
     //  Calculates the time til' the next big Event
     const newEvent = new Date("Feburary 24, 2024");
-    const nextEvent = currentEvent.getFullYear() + 1;
+    const nextEvent = currentEvent.getFullYear() + 0;
     newEvent.setFullYear(nextEvent);
     const daysLeft = (newEvent - currentEvent)/(1000*60*60*24);
 
