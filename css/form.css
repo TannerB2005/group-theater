@@ -8,8 +8,8 @@
 /* Body and HTML */
 html {
     height: 100%;
-    width: 100%;
-   
+    margin-left: 390px;
+    margin-right: 460px;
     background-color: rgb(36, 32, 32);
     
 }
@@ -24,7 +24,7 @@ body {
 /* Image style*/
 
 img {
-    height: 350px;
+    height: 390px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,10 +75,7 @@ img {
    
 }
 
-@media screen and (max-height: 450px) {
-    .topnav {padding-top: 15px;}
-    .topnav a {font-size: 18px;}
-}
+
 
 
 
@@ -245,7 +242,7 @@ margin-right: 100px;
     width: 145px;
     margin-bottom: 20px;
     padding-left: 20px;
-    border: 2px solid black;
+    border: 2px solid #C10635;
     border-radius: 6px;
 }
 
@@ -261,7 +258,7 @@ margin-right: 100px;
     float: left;
     width: 145px;
     padding-left: 20px;
-    border: 2px solid black;
+    border: 2px solid #C10635;
     border-radius: 6px;
     background: #E4EBEC;
 }
@@ -292,6 +289,23 @@ ul {
     display: inline;
 }
 
+/* Button */
+
+button {
+    margin-bottom: 30px;
+    border-radius: 2px;
+    font-size: 14px;
+    border: 2px solid white;
+    background-color: #C10635;
+    padding: 10px;
+}
+
+button a{
+color: white;
+font-weight: bold;
+}
+
+
 /*Footer Styles*/
 
 
@@ -310,6 +324,16 @@ h2, h3 {
     text-decoration: underline;
 }
 
-section ul {
-
+.address ul {
+    text-decoration: underline;
+    color: white;
+    padding: 2px;
 }
+
+
+
+.contact p {
+color: white;
+text-align: start;
+}
+
