@@ -67,15 +67,18 @@ li#mainway a {
     font-family: 'Pixelify Sans', sans-serif;
     color: rgb(255, 255, 255);
     border-right: solid white;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
 }
 
-li a {
+li#header a {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: .8px solid white;
+    border-right: solid white
 }
 
 li a:hover {
@@ -87,7 +90,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #992f2f;
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
@@ -112,18 +114,30 @@ hr {
 
 
 footer {
-    border: 2px solid white;
+    border: 2px solid #C10635;
     background: rgb(193,6,53);
-    background: radial-gradient(circle, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
-    text-anchor: middle;
-    position: absolute;
+    background: linear-gradient(90deg, rgba(193,6,53,1) 0%, rgba(208,208,179,1) 94%);
     bottom: 0;
     left: 0;
-    width: 100%;
-
+    padding: 14px 16px;
+    text-anchor: start;
+    
     }
     
-    h1 {
+    h2, h3 {
         color: white;
         text-decoration: underline;
+    }
+    
+    .address ul {
+        text-decoration: underline;
+        color: white;
+        padding: 2px;
+    }
+    
+    
+    
+    .contact p {
+    color: white;
+    text-align: start;
     }

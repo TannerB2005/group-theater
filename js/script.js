@@ -95,10 +95,9 @@ for (let i = 1; i <= totalDays; i++) {
     if (i === highlight) {
         htmlCode += "<td class='calendar_dates' id=calendar_today>" + i + dayEvent[i] + "</td>";
     } else {
-        htmlCode += "<td class='calendar_dates' id=calendar_today>" + i + "</td>";
-        if (weekDay === 6) htmlCode += "</tr>";
-    }
+        htmlCode += "<td class='calendar_dates'>" + i + dayEvent[i] + "</td>";
 
-    return htmlCode;
+    }        if (weekDay === 6) htmlCode += "</tr>";
 }
+    return htmlCode;
 }

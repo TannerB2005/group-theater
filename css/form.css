@@ -82,22 +82,23 @@ img {
 /* Header text */
 
 .text-block {
-   background-color: rgb(0,0,0);
-   background-color: rgba(0,0,0, 0.4);
-   color: white;
-   font-weight: bold;
-   font-size: 14px;
-   border: 8px solid #C10635;
-   position: fixed;
-   top: 20%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-  
-   width: 300px;
-   padding: 20px;
-   text-align: center;
-
-    text-anchor: middle;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: 8px solid #C10635;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+     
+     
+    
 }
 
 
