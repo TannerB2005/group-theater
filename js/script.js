@@ -11,7 +11,7 @@ document.getElementById("calendar").innerHTML = createCalendar(thisDay);
 
 //Function to generate calendar 
 function createCalendar(calDate) {
-    const calendarHTML = "<table id='calendar_table'>";
+    let calendarHTML = "<table id='calendar_table'>";
     calendarHTML += calCaption(calDate);
     calendarHTML += calWeekdayRow();
     calendarHTML += calDays(calDate);
@@ -41,10 +41,10 @@ function calWeekdayRow() {
 
     //Weekday abbreviations array
     const dayName = ["SUN", "MON", "TUES", "WED", "THU", "FRI", "SAT"];
-    const rowHTML = "<tr>";
+    let rowHTML = "<tr>";
 
     //Loop for the dayName array
-    for (let i = 0 < dayName.length; i++;) {
+    for (let i = 0; i < dayName.length; i++) {
         rowHTML += "<th class='calendar_weekdays'>" + dayName[i] + "</th>";
     }
 
@@ -75,13 +75,13 @@ function daysInMonth(calDate) {
 function calDays(calDate) {
     //Determines starting of the month
     const day = new Date(calDate.getFullYear(), calDate.getMonth(), 1);
-    const weekDay = day.getDay();
+    let weekDay = day.getDay();
     //Writes blank spaces for preceding the starting day
-    const htmlCode = "<tr>";
+    let htmlCode = "<tr>";
     for (let i = 0; i < weekDay; i++) {
         htmlCode += "<td></td>";
     }
-}
+
 
 //Write cells for each day of the month
 const totalDays = daysInMonth(calDate);
@@ -100,4 +100,5 @@ for (let i = 1; i <= totalDays; i++) {
     }
 
     return htmlCode;
+}
 }

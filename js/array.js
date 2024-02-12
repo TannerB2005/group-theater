@@ -1,7 +1,7 @@
 "use strict";
 
 
-const dayEvent = new Array ();
+const dayEvent = new Array();
 
 dayEvent[1] = "";
 dayEvent[2] = "<br /><a href='#'>;Theater Showing</a><br /> 7 pm <br /> $1000";
